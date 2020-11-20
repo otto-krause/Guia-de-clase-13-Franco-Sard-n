@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+
+    int x,nm=0,nme=0,numeros[]{1,2},s,c=0;
+    for (x=0;x<2;x++){
+    printf("Ingrese dos numeros ");
+    scanf("%d",&numeros[x]);
+    if (nm<numeros[x]){
+       nm=numeros[x];};
+       if (c=0){
+       	nme=numeros[x];
+	   }
+	   if(c=1){
+	   	if (nme>numeros[x]){
+	   		nme=numeros[x];
+		   }
+	   }
+       }
+    i=nme;
+    while (nm>=i){
+        printf("\n%d",i);
+        i=i+1;
+    }
+}
+
+
+
