@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    int a,b,c,m=1,me=1,rt[3],y=1,v;
+    rt[a]=0;
+    rt[b]=0;
+    rt[c]=0;
+    printf(" ingrese 3 numeros ");
+    scanf("%d",&rt[a]);
+    scanf("%d",&rt[b]);
+    scanf("%d",&rt[c]);
+    v=rt[a]+rt[b];
+    if(rt[a]<rt[b] and rt[a]<rt[c] and rt[b]<rt[c]){
+    	printf("\n se ingresaron ascendientemente");
+	}else{
+		if(rt[a]>rt[b] and rt[a]>rt[c] and rt[b]>rt[c]){
+			printf("\n se ingresaron descendientemente");
+		}else{
+		printf("\n se ingresaron desordenadamente");	
+		}			
+	}
+	printf("\n la suma del primero y el ultimo es %d",v);
+  }
